@@ -1,0 +1,309 @@
+html, body {
+	margin: 0px;
+	padding: 0px;	
+}
+body {
+	overflow-x: hidden;
+}
+html {
+	font-size: 10px;
+}
+header {	
+	position: sticky;
+	top: 0;
+	z-index: 2;
+	background: linear-gradient(to right, #F6EFD2, #CEAD78);	
+}
+p {
+	font-size: 2rem;
+}
+h1 {
+	font: normal 4.25rem "Bebas Neue Cyrillic", sans-serif;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 25px;   
+}
+h2 {
+	font: normal 3rem "Bebas Neue Cyrillic", sans-serif;
+	text-transform: uppercase;	
+}
+h3 {
+	font: normal 2rem "Bebas Neue Cyrillic", sans-serif;
+	
+}
+.menu {
+	font-size: 1.6rem;
+}
+.menu:hover {
+	color: chocolate;
+	cursor: pointer;	
+}
+.contacts-margin {
+	margin-left: 25%;
+}
+.header {	
+	margin: auto;    
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img1 {
+	width: 100%;
+}
+.logo {
+	padding: 5px 0 5px 0;
+	width: 75px;	
+}
+.text-align-center {
+	text-align: center;
+}
+
+.article-one {
+	display: flex;
+	height: 100vh;
+	position: relative;		
+}
+.article-one-section-left {
+	width: 40%;
+	padding: 5%;
+}
+.article-one-section-right {	
+	width: 55%;
+	padding: 5%;	
+	border-radius: 10px;
+}
+.img-one {
+	width: 100%;
+	border-radius: 10px;
+}
+.btn-one {
+	font-size: 1.6rem;
+	color: #19bdef;
+	border-radius: 10px;	
+	display: block;
+	border: 1px solid #19bdef;
+	background-color: white;
+	text-decoration: none;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	position: relative;
+	overflow: hidden;
+}
+.btn-one::before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: #19bdef;
+	opacity: 0.3;
+	top: 0;
+	left: -100%;
+	border-radius: 10px;		
+}
+.btn-one:hover::before {
+	left: 0;
+	transition: 0.3s;
+}
+
+.article-two {
+	display: flex;
+	text-align: center;
+}
+.sections-3 {
+	width: 33%;
+}
+.sections-3 > p {
+	width: 70%;
+	margin: auto;
+}
+.images-3 {
+	margin-top: 25px;
+	border-radius: 50%;
+	margin-bottom: 100px;
+}
+
+.article-three {
+	background-image: url(../img/stanciya-tip05-1920x960.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 10%;
+	text-align: center;
+	padding-bottom: 10%;
+}
+.article-three * {
+	color: white;
+}
+.article-three-section {
+	display: flex;
+	justify-content: space-around;
+}
+.article-three-section > div {
+	margin-top: 50px;	
+	background: white;
+	padding: 15px;	
+	border-radius: 50%;
+	text-align: center;
+	background: linear-gradient(to right, #F6EFD2, #CEAD78);
+
+}
+.one-div {
+	width: 10%;
+	height: 70px;
+}
+.two-div {
+	width: 20%;
+}
+.three-div {
+	width: 10%;
+	height: 70px;
+}
+
+
+
+.article-four {
+	display: flex;
+	margin-top: 10%;
+	align-items: center;
+}
+.my-tab-width {
+	display: flex;
+	flex-direction: column;
+	font-size: 1.8rem;
+}
+.tab-content > .active {
+  display: flex;
+}
+.div-with-text {
+	width: 30%;
+	text-align: center;
+	margin: auto;
+}
+.div-with-img {
+	margin-left: 20px;
+	width: 60%;
+}
+.montash {
+	width: 100%;
+}
+
+
+.article-five {
+	margin-top: 10%;
+	text-align: center;
+}
+.green {
+	width: 100%;	
+}
+
+.article-six {
+	margin-top: 10%;
+	padding-top: 5%;	
+	text-align: center;
+	padding-bottom: 5%;
+}
+.div-flex {
+	display: flex;
+	justify-content: space-around;
+}
+.article-six > div > section {
+	width: 22%;
+	height: 500px;
+	text-align: center;
+	border: 1px solid white;
+	background: white;
+	opacity: 0.6;
+}
+.article-six {
+	background-image: url(../img/hq-wallpapers_ru_cars_5330_1920x1200.jpg);
+	background-size: cover;	
+}
+
+
+.article-seven {
+	margin-top: 10%;
+	text-align: center;
+}
+.owl-carousel {
+	cursor: pointer;
+}
+.slider-item {
+	width: 600px;
+	height: 600px;
+	background-size: cover;	
+}
+
+div.owl-item.active:nth-child(1) {	
+	background-image: url(../img/solar-panels-1477987-1920-min.jpg);
+	background-repeat: no-repeat;	
+}
+div.owl-item.active:nth-child(2) {
+	background-image: url(../img/solnechnye-batarei.jpg);
+	background-repeat: no-repeat;
+}
+div.owl-item.active:nth-child(3) {
+	background-image: url(../img/100130952_w2048_h2048_bor_1920h600.jpg);
+	background-repeat: no-repeat;	
+}
+div.owl-item.active:nth-child(4) {
+	background-image: url(../img/stanciya-tip04-1920x960.jpg);
+	background-repeat: no-repeat;
+}
+
+
+.eight {	
+	display: flex;
+	flex-wrap: wrap;
+}
+.section-rose {
+	width: 50%;
+	text-align: center;
+}
+.rose {
+	margin: auto;
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/rose.png);
+    background-size: cover;
+    position: relative;
+}
+#rose_knob {
+	background-image: url(../img/sun.png);
+}
+.d-none {
+	display: none;
+}
+
+
+.calculator {
+	width: 50%;
+	text-align: center;
+}
+
+
+.section-for-result {
+	display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.res {
+	margin: auto;
+}
+.spec-class {
+	margin-top: 10%;
+	margin-bottom: 50px;
+}
+
+
+.article-nine {
+	margin-top: 10%;
+}
+#google-map {
+    width: 100%;
+    height: 500px;
+}
+

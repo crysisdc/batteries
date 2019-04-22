@@ -1,0 +1,19 @@
+.article-two {        
+    flex-direction: column;    
+    align-items: center;
+}
+.sections-3 > h2 {
+	margin-bottom: 20px;
+}
+.article-three-section > div {
+	width: 20%;         
+}
+.article-one {    
+    height: 70vh;    
+}
+.article-three-section > .two-div {
+	width: 30%;         
+}
+.sections-3 {
+    width: 100%;
+}
