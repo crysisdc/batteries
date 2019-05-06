@@ -1,3 +1,11 @@
 .article-three-section > .two-div {
     width: 40%;
 }
+.slider-item {
+	width: 400px;
+	height: 400px;
+	background-position: center;
+}
+.article-six > div > section {
+	width: 30%;
+}

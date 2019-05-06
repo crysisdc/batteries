@@ -7,3 +7,7 @@ html {
 .contacts-margin {
     margin-left: 0;
 }
+.slider-item {
+	width: 500px;
+	height: 500px;	
+}
